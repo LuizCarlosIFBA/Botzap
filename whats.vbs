@@ -1,6 +1,6 @@
 Dim startmundo
 Set Fso = CreateObject("Scripting.FileSystemObject")
-Set InputFile = fso.OpenTextFile("C:\Users\Luiz\Desktop\contatos.txt")
+     Set InputFile = fso.OpenTextFile("C:\Users\Luiz\Desktop\Botzap\contatos.txt")
 'ESTE SCRIPT FOI DESENVOLVIDO PELO STARTMUNDO
 'TODOS OS DIREITOS RESERVADOS copartilhe o video ajude mais pessoas
 Do While Not (InputFile.atEndOfStream)
